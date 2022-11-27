@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <script src="script.js" defer></script>
+    <title>DOM-Events-Assignments</title>
+</head>
+
+<body id="body">
+    <header>
+        <div class="nav" id="nav">
+            <div class="title width-50">
+                <h1 id="title-text">&#60;Nav/bar&#62;</h1>
+            </div>
+            <div class="hamburger width-50" id="hamburger">
+                <i class="fa-solid fa-bars" id="hamburger-i"></i>
+            </div>
+            <div class="nav-side-bar" id="nav-side-bar">
+                <div class="login">
+                    <h1>Login</h1>
+                    <div class="enter-details">
+                        <div class="username">
+                            <label for="user-name">Enter UserName</label>
+                            <input type="text" name="user-name" id="user-name">
+                        </div>
+                        <div class="password">
+                            <label for="user-pass">Enter Password</label>
+                            <input type="password" name="user-pass" id="user-pass">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button class="submit-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="image-slider">
+                <div class="images">
+                    <img src="sources/pexels-chevanon-photography-325044.jpg" alt="image1.jpg"
+                        class="img-custom-styling image" id="image-1">
+                    <img src="sources/pexels-christian-heitz-842711.jpg" alt="image2.jpg"
+                        class="img-custom-styling image" id="image-2">
+                    <img src="sources/pexels-francesco-ungaro-1525041.jpg" alt="image3.jpg"
+                        class="img-custom-styling image" id="image-3">
+                    <img src="sources/pexels-irina-iriser-1379636.jpg" alt="image4.jpg" class="img-custom-styling image"
+                        id="image-4">
+                    <img src="sources/pexels-maxime-francis-2246476.jpg" alt="image5.jpg"
+                        class="img-custom-styling image" id="image-5">
+                    <div class="sliders">
+                        <span id="back-slide">&#60;</span>
+                        <span id="front-slide">&#62;</span>
+                    </div>
+                    <div class="pointers">
+                        <div class="span" id="slide-1">1</div>
+                        <div class="span" id="slide-2">2</div>
+                        <div class="span" id="slide-3">3</div>
+                        <div class="span" id="slide-4">4</div>
+                        <div class="span" id="slide-5">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator">
+                <div class="display">
+                    <div class="output-screen" id="output-screen">
+                        <span id="num-1"></span>
+                        <span id="operator"></span>
+                        <span id="output-text">0</span>
+                    </div>
+                    <div class="buttons" id="buttons">
+                        <a href="#buttons" id="clear"><span><i class="fa-thin fa-delete-left"></i></span></a>
+                        <a href="#buttons" id="clear-all"><span>AC</span></a>
+                        <a href="#buttons" id="no-1"><span>1</span></a>
+                        <a href="#buttons" id="no-2"><span>2</span></a>
+                        <a href="#buttons" id="no-3"><span>3</span></a>
+                        <a href="#buttons" id="no-4"><span>4</span></a>
+                        <a href="#buttons" id="no-5"><span>5</span></a>
+                        <a href="#buttons" id="no-6"><span>6</span></a>
+                        <a href="#buttons" id="no-7"><span>7</span></a>
+                        <a href="#buttons" id="no-8"><span>8</span></a>
+                        <a href="#buttons" id="no-9"><span>9</span></a>
+                        <a href="#buttons" id="no-0"><span>0</span></a>
+                        <a href="#buttons" id="point"><span>.</span></a>
+                        <a href="#buttons" id="add"><span>+</span></a>
+                        <a href="#buttons" id="sub"><span>-</span></a>
+                        <a href="#buttons" id="divi"><span>/</span></a>
+                        <a href="#buttons" id="mul"><span>*</span></a>
+                        <a href="#buttons" id="sum-up"><span>=</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
